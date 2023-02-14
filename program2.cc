@@ -208,7 +208,9 @@ void make_move()
         /* Used my custom function to check if playerInput was a valid straight line */
         else if (valid_check() == true)
         {
+            set_element(playerInput[0], '.');
             set_element(playerInput[1], '.');
+            set_element(playerInput[2], '#');
             playerComplete = true;
         }
         /* Used this condition as a catch all for any invalid input not caught by previous
