@@ -111,7 +111,7 @@ string alphaCheck = {"ABCDEFGHIJKLM"};
    than moves that are wrong. After checking every vertical, horizontal and diagonal,
    and then reversing those input, i came to find there were 32 possible inputs that are
    valid. */
-string validInputs[32] = {"ACG", "GCA", "BFJ", "JFB", "CGK", "KGC", "DHL", "LHD", "GKM", "MKG", "BCD", "DCB", "EFG", "GFH", "FGH", "HGF", "GHI", "IHG", "JKL", "LKJ", "ADI", "IDA", "BGL", "LGB", "EJM", "MJE", "EBA", "ABE", "JGD", "DGJ", "MLI", "ILM"};
+string validInputs[32] = {"ACG", "GCA", "BFJ", "JFB", "CGK", "KGC", "DHL", "LHD", "GKM", "MKG", "BCD", "DCB", "EFG", "GFE", "FGH", "HGF", "GHI", "IHG", "JKL", "LKJ", "ADI", "IDA", "BGL", "LGB", "EJM", "MJE", "EBA", "ABE", "JGD", "DGJ", "MLI", "ILM"};
 
 /* Pretty much based around the lab setup since it seemed the most sound way to approach */
 int main()
