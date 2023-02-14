@@ -267,7 +267,7 @@ bool game_over()
     else if (playerInput == "X" || playerInput == "x")
     {
         results = true;
-        cout << "Exiting";
+        cout << "Exiting.";
     }
 
     return results;
