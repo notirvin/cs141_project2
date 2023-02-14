@@ -12,6 +12,7 @@
 #include <cstdlib>
 #include <map>
 #include <string>
+#include<bits/stdc++.h>
 
 /* Everything below this comment is starter code, and you are not
 allowed to modify */
@@ -143,6 +144,10 @@ void make_move()
 
     /* Step 2: Take input from player into playerInput*/
     cin >> playerInput;
+
+    /* Had to convert the input to uppercase so lowercase
+       inputs like the autograder work */
+    transform(playerInput.begin(), playerInput.end(), playerInput.begin(), ::toupper);
 
     /* Step 3: Begin mega branch statement for each error condition
        that would fanagle the output, with the X and R inputs being first.
